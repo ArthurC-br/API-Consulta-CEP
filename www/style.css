@@ -1,0 +1,36 @@
+#inputCep{
+    color: #555555;
+    font-family: comic sans MS;
+    height: 30;
+    border: none;
+    padding:4px;
+    border-radius: 8px;
+}
+.inputs{
+    margin-top:5px;
+    padding:4px;
+    border:none;
+    border-radius: 8px;
+}
+#labelCep{
+    font-size: 40;
+
+    font-family: comic sans;
+
+}
+
+.buttonCep{
+    font-family: comic sans MS;
+    padding: 4px;
+    border:none;
+    border-radius: 8px;
+}
+
+.buttonCep:hover{
+    background-color: #dddddd;
+}
+
+.buttonCep:active{
+    background-color: #555555;
+    color: white;
+}

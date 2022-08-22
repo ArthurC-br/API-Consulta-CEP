@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta CEP</title>
+
+    <script src="eel.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body style="background-color: #7EC8E3">
+
+    <div id="title" align="center">
+        <h1>Consulte seu CEP</h1>
+    </div>
+
+    <br>
+    <div id="consulte" align="center">
+        <label id="labelCep">CEP: </label>
+        <input id="inputCep" placeholder="01001000" type="text">
+        <button class="buttonCep" id="buttonCep" onclick="button()">Ok</button>
+
+    </div>
+
+    <div align="center">
+        <a href="cep.html">Não sei meu cep</a>
+    </div>
+
+    <div id="response" align="left" style="padding: 10px">
+        <h3 id="cep"></h3>
+        <h3 id="estado"></h3>
+        <h3 id="cidade"></h3>
+        <h3 id="rua"></h3>
+        <h3 id="bairro"></h3>
+        <h3 id="ddd"></h3>
+    </div>
+
+</body>
+</html>
